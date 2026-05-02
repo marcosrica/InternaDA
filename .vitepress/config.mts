@@ -6,6 +6,13 @@ export default defineConfig({
   
   title: "InternaDA",
   description: "Documentación interna de los servicios digitales de DA-ETSISI",
+  
+  head: [
+    ['style', {}, `
+      .vp-doc p, .vp-doc li { text-align: justify; }
+    `]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,7 +35,7 @@ export default defineConfig({
         },
         {
           text: 'MejoraDA',
-          collapsed: false,   // muestra la sección expandida
+          collapsed: false,
           items: [
             { text: 'Inicio', link: '/servicios/mejorada/index' },
             { text: 'Guía de uso', link: '/servicios/mejorada/guia-uso' }
@@ -44,7 +51,18 @@ export default defineConfig({
         },
       ],
       '/frameworks/': [
-        { text: 'Frameworks', items: [{ text: 'Intro', link: '/frameworks/intro' }] }
+        { 
+          text: 'Frameworks', 
+          items: [{ text: 'Intro', link: '/frameworks/intro' }] 
+        },
+        {
+          text: 'VueJS',
+          collapsed: false,
+          items: [
+            { text: 'Inicio', link: '/frameworks/vuejs' },
+            { text: 'Guía de uso', link: '/servicios/mejorada/guia-uso' }
+          ]
+        },
       ]
     },
 
