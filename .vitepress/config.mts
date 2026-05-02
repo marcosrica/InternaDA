@@ -60,7 +60,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Inicio', link: '/frameworks/vuejs' },
-            { text: 'Guía de uso', link: '/servicios/mejorada/guia-uso' }
+            { text: 'Creación y uso de componentes', link: '/frameworks/vuejs/abstraccion-componentes' }
           ]
         },
       ]
