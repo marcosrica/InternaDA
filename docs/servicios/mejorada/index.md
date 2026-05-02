@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Mejorada, un medio para la superación de todos
 
 MejoraDA es un servicio de recogida de sugerencias construido las tecnologías de Nodejs y Vitejs sobre un framework de typescript.
