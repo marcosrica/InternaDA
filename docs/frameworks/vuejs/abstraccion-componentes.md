@@ -2,4 +2,6 @@
 outline: deep
 ---
 
-# Componentes
+# Componentes en Vue
+
+Respetando 
