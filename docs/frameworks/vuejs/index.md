@@ -11,7 +11,7 @@ Como Vue se monta sobre node, la configuración básica del proyecto vendrá det
 :::
 
 ## Trabajar con un proyecto de Vue
-Una vez finalizada toda la configuración inicial del proyecto, (para esta parte ,referir a la [documentación oficial](https://vuejs.org/guide/introduction.html)), todo lo que se va a poder manipular que tenga que ver con este framework se encontrará dentro de la carpeta **src/**.
+Una vez finalizada toda la configuración inicial del proyecto, (para esta parte, referir a la [documentación oficial](https://vuejs.org/guide/introduction.html)), todo lo que se va a poder manipular que tenga que ver con este framework se encontrará dentro de la carpeta **src/**.
 
 Aparecerá un archivo llamado **App.vue**, en el que tendremos la configuración básica de la aplicación. En este fichero es donde montaremos todo lo que afecte a la aplicación en conjunto, no a una página.
 
